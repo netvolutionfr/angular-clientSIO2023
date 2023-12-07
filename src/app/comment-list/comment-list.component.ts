@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {CommentService} from "../comment.service";
-import {Comment} from "../comments.interface";
+import {CommentService} from "../services/comment.service";
+import {Comment} from "../interfaces/comment";
 import {NgForOf} from "@angular/common";
 
 @Component({

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Comment} from "./comments.interface";
+import {Comment} from "../interfaces/comment";
 
 @Injectable({
   providedIn: 'root'
